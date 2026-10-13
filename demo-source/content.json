@@ -1,0 +1,80 @@
+{
+  "slug": "qr-file-transfer",
+  "title": "QR File Transfer",
+  "summary": "Move original files across an optical link by displaying a sequence of QR frames on one screen and reconstructing those frames in a receiving browser. The receiver accepts camera frames, images or a recording. The prepared browser candidate is private; the original NAS installation additionally has owner backup functions and native sender packages, which are not included in this candidate.",
+  "features": [
+    [
+      "File preservation",
+      "Transfer documents, archives, images and arbitrary binary files; reconstruction verifies the original bytes.",
+      "Browser candidate"
+    ],
+    [
+      "Animated sender",
+      "Prepare selected files and display repeated encoded frames; controls support timing and presentation.",
+      "Browser candidate"
+    ],
+    [
+      "Receiver inputs",
+      "Read through a camera or supported image/video input.",
+      "Browser candidate"
+    ],
+    [
+      "Loss recovery",
+      "Redundant frames allow progress despite missed, reordered or duplicate frames.",
+      "Browser candidate"
+    ],
+    [
+      "Resume",
+      "Retain partial progress in browser storage for the same transfer identity.",
+      "Browser candidate"
+    ],
+    [
+      "NAS backup",
+      "Owner-only resumable file backup into protected NAS storage.",
+      "Original hosted implementation only"
+    ],
+    [
+      "Native senders",
+      "Python and PowerShell alternatives for an already permitted runtime.",
+      "Original hosted implementation only"
+    ]
+  ],
+  "workflows": [
+    [
+      "Prepare a small first transfer",
+      [
+        "Open the sender page on the sending computer. Use the included harmless hello.txt example before trying a large archive.",
+        "Select the intended files and prepare the transfer. Check the filenames and total size; preparation and actual optical transfer are separate stages.",
+        "Keep the receiver ready before starting the animation. Set a display size and pace that remain sharp and legible on the receiving camera.",
+        "Start the QR sequence. Avoid window overlap, screen dimming and reflection. Esc stops presentation; restarting the display is not the same as changing the file set."
+      ]
+    ],
+    [
+      "Receive and verify",
+      [
+        "Open receiver.html through an HTTPS origin when using a phone camera. Grant camera access deliberately and point it squarely at the sender display.",
+        "Keep the full QR inside the camera frame. Watch progress rather than expecting each visible frame to decode. Missed or duplicate frames are normal.",
+        "When reconstruction finishes, save the verified originals. Open a small received file to confirm the expected result before committing to a longer transfer.",
+        "For image or recording input, choose the appropriate receiver input instead of live camera capture. The same reconstruction and completion checks still apply."
+      ]
+    ],
+    [
+      "Resume an interrupted transfer",
+      [
+        "Return using the same browser and origin that holds the saved progress. Do not clear site storage or use a private browsing session expecting persistence.",
+        "Resume the original transfer rather than preparing a different file selection under a similar filename. Stable identity matters.",
+        "Check free storage before continuing. Partially received data and reconstructed output can require additional space.",
+        "If progress stalls, improve focus, lighting and framing or reduce presentation speed. Do not assume a faster animation increases useful throughput."
+      ]
+    ],
+    [
+      "Choose whether optical transfer suits the job",
+      [
+        "Try representative small files and measure actual receive progress on your devices.",
+        "Use that measured rate to judge a large job. Multi-gigabyte optical transfers can take days, and mobile browsers may suspend background tabs.",
+        "Keep both pages visible and powered during a long transfer. Use the original hosted NAS-backup workflow only when you specifically intend an upload to that NAS."
+      ]
+    ]
+  ],
+  "limits": "Protocol tests reconstructed 2,337,225 bytes across three files with dropped, reversed and duplicate frames. Build and timing tests passed. Physical camera throughput, cross-phone compatibility and a 4 GB transfer have not been validated. This project must remain private until separately authorised."
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "boxes": [
+      {
+        "h": 197.390625,
+        "selector": "#files",
+        "text": "Start with harmless files and check the total size before preparing.",
+        "title": "Choose a small sample",
+        "w": 607.609375,
+        "x": 408,
+        "y": 582.15625
+      },
+      {
+        "h": 53,
+        "selector": "#fps",
+        "text": "Faster frames are not always faster receiving; focus and framing matter.",
+        "title": "Choose a readable pace",
+        "w": 301.8125,
+        "x": 714.796875,
+        "y": 851.328125
+      },
+      {
+        "h": 48.890625,
+        "selector": "#prepare",
+        "text": "Preparation creates the QR sequence. Start sending when the receiver is ready.",
+        "title": "Prepare, then send",
+        "w": 136.53125,
+        "x": 407,
+        "y": 916.328125
+      }
+    ],
+    "height": 1408,
+    "width": 2055,
+    "title": "Actual tool · controls at a glance",
+    "caption": "Actual application screenshot. Numbered boxes point to the controls described below. ",
+    "key": "qr-file-transfer"
+  },
+  {
+    "boxes": [
+      {
+        "h": 59.1875,
+        "selector": "#prepare",
+        "text": "Split this short message into example chunks.",
+        "title": "Prepare harmless text",
+        "w": 260,
+        "x": 318,
+        "y": 605.703125
+      },
+      {
+        "h": 59.1875,
+        "selector": "#reorder",
+        "text": "The last chunk can arrive before the first. Try Duplicate too.",
+        "title": "Receive out of order",
+        "w": 260,
+        "x": 318,
+        "y": 789.265625
+      },
+      {
+        "h": 370.5625,
+        "selector": "#result",
+        "text": "Only new chunks increase progress; this is not the production optical protocol.",
+        "title": "Watch unique progress",
+        "w": 517.078125,
+        "x": 1228.90625,
+        "y": 488.703125
+      }
+    ],
+    "height": 1408,
+    "width": 2055,
+    "key": "simulation",
+    "title": "Try the working offline example",
+    "caption": "Screenshot of this project’s interactive demo. Side-by-side services are explicitly simulated.",
+    "cropHeight": 900.265625
+  }
+]

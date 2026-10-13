@@ -1,0 +1,2 @@
+Hello from the QR File Transfer example!
+This is a fictional sample, with no personal information.
