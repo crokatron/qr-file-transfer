@@ -2,9 +2,11 @@
 
 **Maintaining this project? [Start here](docs/START-HERE.md) · [Detailed handover](docs/HANDOVER.md)**
 
-Move original files across an optical link by displaying a sequence of QR frames on one screen and reconstructing those frames in a receiving browser. The receiver accepts camera frames, images or a recording. The prepared browser candidate is private; the original NAS installation additionally has owner backup functions and native sender packages, which are not included in this candidate.
+Move original files across an optical link by displaying a sequence of QR frames on one screen and reconstructing those frames in a receiving browser. The receiver accepts camera frames, images or a recording. The prepared browser candidate is shared here; the original NAS installation additionally has owner backup functions and native sender packages, which are not included in this candidate.
 
-**Private preview · not published.**
+[Publication checks and remaining limits](docs/PUBLICATION.md)
+
+**Public source preview · MIT for original contributions.**
 
 [Open the visual manual](docs/USER-MANUAL.md) · [Download the self-contained demo](demo.html) · [Release notes](CHANGELOG.md)
 
@@ -65,7 +67,7 @@ The demo has no prerequisites; the real tool may need the services described in 
 
 ## Current boundaries
 
-Protocol tests reconstructed 2,337,225 bytes across three files with dropped, reversed and duplicate frames. Build and timing tests passed. Physical camera throughput, cross-phone compatibility and a 4 GB transfer have not been validated. This project must remain private until separately authorised.
+Protocol tests reconstructed 2,337,225 bytes across three files with dropped, reversed and duplicate frames. Build and timing tests passed. Physical camera throughput, cross-phone compatibility and a 4 GB transfer have not been validated. Public sharing of this project was authorised on 14 October 2026.
 
 ## Licence and sharing
 

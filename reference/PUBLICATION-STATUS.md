@@ -1,6 +1,3 @@
-# PRIVATE — do not publish
+# Publication authorised
 
-The owner explicitly requested that QR File Transfer remain private. The source,
-MIT licence, generic examples and illustrated guide are prepared for review only.
-Publishing requires a new, explicit instruction from the owner. Do not include
-this folder in nas-projects-community, public releases or public CI artifacts.
+On 14 October 2026 the owner authorised sharing all 17 individual projects publicly, including QR File Transfer. This supersedes the earlier private-only instruction. The NAS backup and recovery archives remain private. See [publication checks](../docs/PUBLICATION.md).

@@ -4,7 +4,7 @@
 
 ## Purpose and behaviour to preserve
 
-Move original files across an optical link by displaying a sequence of QR frames on one screen and reconstructing those frames in a receiving browser. The receiver accepts camera frames, images or a recording. The prepared browser candidate is private; the original NAS installation additionally has owner backup functions and native sender packages, which are not included in this candidate.
+Move original files across an optical link by displaying a sequence of QR frames on one screen and reconstructing those frames in a receiving browser. The receiver accepts camera frames, images or a recording. The prepared browser candidate is shared here; the original NAS installation additionally has owner backup functions and native sender packages, which are not included in this candidate.
 
 - **File preservation:** Transfer documents, archives, images and arbitrary binary files; reconstruction verifies the original bytes. (Browser candidate.)
 - **Animated sender:** Prepare selected files and display repeated encoded frames; controls support timing and presentation. (Browser candidate.)
@@ -63,7 +63,7 @@ Git preserves reviewed source and documentation. It does not copy browser storag
 
 Before these documentation edits on 14 October 2026, this package was clean on branch `main` at `6c669429cac4e6f7183dd47e99346ffbb4db44f4` and its private upload was verified. All 32 manifest-listed source entries matched their stored checksums before editing. The upload follow-up has completed all 17 repositories and is paused; it does not run this tool or back up its live data.
 
-These handover pages and README links accompany the private source package. Preserve them when continuing; stage only reviewed changes. Recheck current `git status --short --branch` and `git diff` before starting. No project-specific background schedule was inspected or changed in this documentation pass. Any service schedules in older notes are historical claims to verify in the actual deployment.
+These handover pages and README links accompany the source package. Preserve them when continuing; stage only reviewed changes. Recheck current `git status --short --branch` and `git diff` before starting. No project-specific background schedule was inspected or changed in this documentation pass. Any service schedules in older notes are historical claims to verify in the actual deployment.
 
 Earlier package checks and limits are recorded in [VALIDATION.md](../VALIDATION.md). This handover adds documentation/link/whitespace/secret and source-preservation checks only. No current NAS release, real hardware state, fresh installation, complete data restoration or offsite-backup freshness was verified here.
 
@@ -76,9 +76,9 @@ Earlier package checks and limits are recorded in [VALIDATION.md](../VALIDATION.
 
 ## Known limits and next work
 
-Protocol tests reconstructed 2,337,225 bytes across three files with dropped, reversed and duplicate frames. Build and timing tests passed. Physical camera throughput, cross-phone compatibility and a 4 GB transfer have not been validated. This project must remain private until separately authorised.
+Protocol tests reconstructed 2,337,225 bytes across three files with dropped, reversed and duplicate frames. Build and timing tests passed. Physical camera throughput, cross-phone compatibility and a 4 GB transfer have not been validated. Public sharing of this project was authorised on 14 October 2026.
 
-**Priority:** Validate real sender/receiver phones, camera permissions, loss/resume and throughput using harmless samples. Keep this project private even if all release preparation is complete; publication needs separate owner approval.
+**Priority:** Validate real sender/receiver phones, camera permissions, loss/resume and throughput using harmless samples. Public sharing was authorised on 14 October 2026. Keep credentials and real transfer payloads out of the repository.
 
 Common symptoms to check for this tool:
 

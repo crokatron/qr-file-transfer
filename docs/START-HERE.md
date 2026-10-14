@@ -10,6 +10,6 @@ Optical file transfer using QR frames, recovery and exact-byte reconstruction. T
 
 **Keep your work safe:** The browser candidate stores progress locally; it does not silently send files to a cloud service. A camera recording or someone else’s view of the sender screen can expose the transmitted content: encoding and recovery are not encryption. Keep source files until the received copies are verified and saved.
 
-**Next maintainer action:** Validate real sender/receiver phones, camera permissions, loss/resume and throughput using harmless samples. Keep this project private even if all release preparation is complete; publication needs separate owner approval.
+**Next maintainer action:** Validate real sender/receiver phones, camera permissions, loss/resume and throughput using harmless samples. Public sharing was authorised on 14 October 2026. Keep credentials and real transfer payloads out of the repository.
 
-**Status:** private upload verified on 14 October 2026. These guides accompany the private source package. Live runtime, data backups and full recovery were not retested. Public release needs separate approval.
+**Status:** private upload verified on 14 October 2026. These guides accompany the source package. Live runtime, data backups and full recovery were not retested. Public sharing was authorised on 14 October 2026; the NAS backup remains private.
