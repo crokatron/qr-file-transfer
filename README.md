@@ -1,5 +1,7 @@
 # QR File Transfer
 
+**Maintaining this project? [Start here](docs/START-HERE.md) · [Detailed handover](docs/HANDOVER.md)**
+
 Move original files across an optical link by displaying a sequence of QR frames on one screen and reconstructing those frames in a receiving browser. The receiver accepts camera frames, images or a recording. The prepared browser candidate is private; the original NAS installation additionally has owner backup functions and native sender packages, which are not included in this candidate.
 
 **Private preview · not published.**
@@ -12,7 +14,7 @@ Download `demo.html` using GitHub’s Download raw file control, then open it in
 
 ### Actual tool · controls at a glance
 
-Actual application screenshot. Numbered boxes point to the controls described below. 
+Actual application screenshot. Numbered boxes point to the controls described below.
 
 ![QR File Transfer — numbered controls](docs/images/guide-1.jpg)
 
